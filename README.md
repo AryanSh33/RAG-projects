@@ -8,7 +8,7 @@ RAG lets an LLM answer questions about *your* documents: instead of relying on w
 
 | Project | Description | Stack |
 |---|---|---|
-| [resume-chatbot](resume-chatbot/) | Upload a resume PDF and chat with it. Handles follow-up questions and shows which resume sections each answer came from. | LangChain, Gemini, FAISS, Streamlit |
+| [resume-chatbot](resume-chatbot/) | Upload a resume PDF and chat with it. Handles follow-up questions and shows which resume sections each answer came from. ([function reference](resume-chatbot/FUNCTIONS.md)) | LangChain, Gemini, FAISS, Streamlit |
 
 ## Repository layout
 

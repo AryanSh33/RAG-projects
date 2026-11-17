@@ -48,6 +48,8 @@ Built with **LangChain**, **Google Gemini**, **FAISS**, and **Streamlit**.
 
 Each of the first three files can also be run on its own from the terminal to inspect that stage (see below).
 
+📖 **[FUNCTIONS.md](FUNCTIONS.md)** lists every function used in each step, both this project's own and the LangChain/Gemini/FAISS/Streamlit calls underneath, with inputs, outputs and a usage example.
+
 ## Setup
 
 **Requirements:** Python 3.11+, a free [Gemini API key](https://aistudio.google.com/apikey).
