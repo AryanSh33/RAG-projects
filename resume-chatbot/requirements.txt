@@ -1,0 +1,13 @@
+# --- LangChain core ---
+langchain                # chains, prompts, retrievers (the "glue")
+langchain-google-genai   # lets LangChain talk to Gemini (chat + embeddings)
+langchain-community      # community integrations: PDF loader, FAISS
+langchain-text-splitters # splits long text into chunks
+
+# --- RAG building blocks ---
+pypdf                    # reads text out of PDF files
+faiss-cpu                # fast in-memory vector search (from Meta)
+
+# --- App ---
+streamlit                # web UI for the chatbot
+python-dotenv            # loads the API key from a .env file

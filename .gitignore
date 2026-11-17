@@ -1,0 +1,19 @@
+# Secrets - never commit API keys (matches .env in every project folder)
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Personal data - resumes and other uploaded documents
+*.pdf
+uploads/
+
+# Saved vector indexes
+faiss_index/
